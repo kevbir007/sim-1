@@ -1,0 +1,8 @@
+INSERT INTO Bins (
+SHELF,
+BIN,
+ITEM,
+PRICE
+)
+VALUES ($1,$2,$3,$4)
+

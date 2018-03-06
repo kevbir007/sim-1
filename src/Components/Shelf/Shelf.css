@@ -1,0 +1,69 @@
+.Shelf {
+    text-align: center;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    width: 100vw
+}
+
+.Shelf-logo-header {
+    background-color: #ab2a19;
+    height: 140px;
+    padding: 20px;
+    color: white;
+    width: 18.7%;
+
+}
+
+.Shelf-logo {
+    background-image: url("../../Pictures/shelfie.svg");
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    margin-left: 113px;
+    margin-top: 19px;
+}
+
+.Shelf-header {
+    background-color: #d34735;
+    height: 140px;
+    padding: 20px;
+    color: white;
+    width: 82.3%;
+}
+
+.Title {
+    font-size: 56px;
+    font-weight: bolder;
+    float: left;
+}
+
+.bin{
+    width: 930px;
+    height: 120px;
+    background-color: #ED6B5A;
+    display: flex;
+    margin-left: 20%;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    font-size: 56px;
+    font-weight: bolder;
+    color: white;
+    align-items: center;
+    float: left;
+    padding-left: 220px;
+}
+.Bin-1 {
+    margin-top: 30px;
+    
+  }
+
+
+.Add-inventory{
+    background-color: #FFB8AF;
+    color: black;
+  }
+  

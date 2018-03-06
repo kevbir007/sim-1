@@ -1,0 +1,99 @@
+.Bin {
+    text-align: center;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    width: 100vw
+}
+
+.Bin-logo-header {
+    background-color: #ab2a19;
+    /* 24F */
+    height: 140px;
+    /* 24E */
+    padding: 20px;
+    color: white;
+    width: 9.35%;
+
+}
+
+.Bin-logo {
+    /* 23F */
+    background-image: url("../../Pictures/shelfie.svg");
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    /* 24C */
+    margin-left: 30px;
+    margin-top: 19px;
+}
+
+.Bin-header {
+    background-color: #d34735;
+    height: 140px;
+    padding: 20px;
+    color: white;
+    width: 18.7%;
+}
+
+.Title {
+    font-size: 56px;
+    font-weight: bolder;
+    float: left;
+    color: white;
+}
+
+.Bin-location {
+    height: 140px;
+    width: 71.95%;
+    /* 23E */
+    background-color: #ED6B5A;
+    color: white;
+    padding: 20px;
+}
+
+.Bin-location-title {
+    /* 23D */
+    font-size: 56px;
+    font-weight: bolder;
+    float: left;
+}
+
+.Name {
+    margin-right: 400px;
+}
+
+.Name-input {
+    height: 70px;
+    width: 600px;
+    font-size: 36px;
+    font-weight: bolder;
+    /* 24D */
+    border-radius: 5px;
+}
+
+.Price {
+    margin-right: 400px;
+}
+
+.Price-input {
+    height: 70px;
+    width: 600px;
+    font-size: 36px;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+.Add-inv {
+    height: 70px;
+    width: 600px;
+    font-size: 55px;
+    font-weight: bolder;
+    background-color: #40F99B;
+    margin: auto;
+    margin-top: 40px;
+    color: black;
+    border-radius: 5px;
+}
