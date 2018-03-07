@@ -5,16 +5,17 @@ const cors = require('cors');
 const massive = require('massive');
 require('dotenv').config()
 
-const app = express();
-massive( process.env.CONNECTION_STRING ).then( dbInstance => {app.set('db', dbInstance)});
-
+const app = express();/* 74E */
+massive( process.env.CONNECTION_STRING ).then( dbInstance => {app.set('db', dbInstance)});/* 70C */
+/* 76F */
 app.use( bodyParser.json() );
 app.use( cors() );
 
 const baseURL = "/api/bin";
 
 // delete info from bin
-app.delete(baseURL + "/delete/:id", function(req, res, next){
+/* 76C */
+app.delete(baseURL + "/delete/:id", function(req, res, next){/* 74M */
     const db = app.get("db");
     db.delete_item([req.params.id])
     .then((response) => res.status(200).send(response))
@@ -23,7 +24,7 @@ app.delete(baseURL + "/delete/:id", function(req, res, next){
     // res.sendStatus(200)
 });
 // edit bin
-app.put(baseURL + "/update/:id/:item/:price", function(req, res, next){
+app.put(baseURL + "/update/:id/:item/:price"/*76E*/, function(req, res, next){
     const db = app.get("db");
     console.log("hit")
     db.update_bin([req.params.id, req.params.item, req.params.price])

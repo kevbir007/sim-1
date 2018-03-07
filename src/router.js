@@ -6,6 +6,7 @@ import Bin from './Components/Bin/Bin';
 import Inventory from './Components/Add-inv/Inventory';
 
 export default (
+    /* 42G */
     <Switch>
         <Route exact path="/" component={ Home } />
         <Route exact path="/Shelf/:shelfname" component={ Shelf } />

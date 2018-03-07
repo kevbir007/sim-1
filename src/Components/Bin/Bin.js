@@ -5,10 +5,11 @@ import axios from "axios";
 
 
 export default class Bin extends React.Component {
-    constructor(props){
+    /*36I*/
+    constructor(props){ /* 38C */
         super(props);
 
-        this.state={
+        this.state={ /*36C*/
             name: "",
             price: "",
             id: "",
@@ -19,7 +20,7 @@ export default class Bin extends React.Component {
 
     handleEditClick(){
         console.log("edit selected", this.state.id, this.state.name, this.state.price)
-        this.setState({disabled: !this.state.disabled})
+        this.setState({disabled: !this.state.disabled})/*36D*/
     }
 
     handleSaveClick(){
@@ -81,7 +82,7 @@ export default class Bin extends React.Component {
     componentDidMount() {
         this.getBinInventory()
     }
-
+/* 38D */
     render() {
         const previous = `/Shelf/${this.props.match.params.shelfname}`
         return (

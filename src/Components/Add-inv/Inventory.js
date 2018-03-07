@@ -11,6 +11,7 @@ constructor() {
         name: "",
         price: ""
     }
+    /* 37C */
    this.handleButtonClick = this.handleButtonClick.bind(this);
 }
 
